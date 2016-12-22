@@ -20,6 +20,16 @@ class Jewel
     @mentor_data = JSON.parse(response.body)
   end
   
+  def get_roadmaps (roadmap_id)
+    response = self.class.get(storage("roadmaps/#{roadmap_id}"), headers: {"authorization" => @auth_token})
+    @roadmap_data = JSON.parse(response.body)
+  end
+  
+  def get_checkpoints (checkpoint_id)
+    response = self.class.get(storage("checkpoints/#{checkpoint_id}"), headers: {"authorization" => @auth_token})
+    @checkpoint_data = JSON.parse(response.body)
+  end
+  
   
   private
   def storage(end_point)
