@@ -30,6 +30,11 @@ class Jewel
     @checkpoint_data = JSON.parse(response.body)
   end
   
+  def get_messages (message_page=1)
+    response = self.class.get(storage("message_threads?page=#{message_page}"), headers: {"authorization" => @auth_token})
+    @checkpoint_data = JSON.parse(response.body)
+  end
+  
   
   private
   def storage(end_point)
