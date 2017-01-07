@@ -1,0 +1,140 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://www.bloc.io/api/v1/sessions
+    body:
+      encoding: UTF-8
+      string: email=<EMAIL>&password=<PASSWORD>
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 05 Jan 2017 01:27:14 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"6c5a1b129ccb66f04bfac747d3fb894b"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=uTsqsKPX71FqUIblqV8AGe2hGnaoqB4kQWTXsfii7n0%3D; path=/; secure
+      - _BlocAlpha_session2=VEd1ZHJUWis2aDBaUXVoUmlkT3ZzdzNmRkd6dHR4YktLb1RtMXRURUdaTlBUMEw3ODhTSW5IeGZCaDd1K3ZPZW92YkZET0c4enh1cm9vWTZUQ0EzajI4K3BsU0FLTERNMVhLZ3pobG9TSDlES3dpRWc5STJmamtaUHhXb01zbmxKZU1ZSWtzYkxpZWJPbHJYQVlXM0ZhOGM2U21uNDRqdmo1OUE2L3hFaCtZNkJlL2JXNE5pY3pCdkVXV25EUEpkU1FzWlhpTVJIdW9YZGpnOTlqZ0dRUT09LS1YMDVzRUpxQm5uMTBKaTEzVWpkWHpBPT0%3D--5009f3c95621b3834bca407c8cf3a3303d7cd192;
+        domain=.bloc.io; path=/; secure; HttpOnly
+      - ahoy_track=true; path=/; secure
+      - ahoy_visit=024d576e-a592-4f1b-aa04-920840100dca; path=/; expires=Thu, 05 Jan
+        2017 05:27:14 -0000; secure
+      - ahoy_visitor=4289d772-2009-4a68-9e9b-f551f171537a; path=/; expires=Sat, 05
+        Jan 2019 01:27:14 -0000; secure
+      X-Request-Id:
+      - 6198ef7e-d170-4dc4-89e1-7a18fb6d8fe6
+      X-Runtime:
+      - '0.143976'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"auth_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcGlfa2V5IjoiMzg5NWUxNTFjOWE0NGMwNGEyYmQ2NzIyYTE0YThlMjIiLCJ1c2VyX2lkIjoyMzQwMjAzLCJuYW1lIjoiVGFyYSBNY3BhcmxhbmQifQ.rmB4E2j3YwDNLiSxAh7d4-hSiglo7Vl--5VBHMKb2mM","user":{"id":2340203,"email":"tara.mcparland@gmail.com","created_at":"2016-04-28T17:08:53.528-07:00","updated_at":"2017-01-04T17:27:14.030-08:00","facebook_id":null,"first_name":"Tara","last_name":"Mcparland","role":"user","stripe_customer_id":"cus_8M7SuyUynXqLUU","twitter_handle":null,"skype_handle":"ardaquendiel","github_handle":"tmcparland","time_zone":"Eastern
+        Time (US \u0026 Canada)","bio":"Graduated from the University of Florida in
+        2013 with a BS in Animal Science. Since then have worked at an animal rescue,
+        dog park, and two veterinary offices. I am currently working full time as
+        a veterinary technician. I also own and manage the farm that I live on raising
+        mainly goats. Looking to change to a career that will allow me to grow and
+        learn more about programming.","photo_file_name":"11889535_10207236095205667_533847030719098742_n.jpg","photo_content_type":"image/jpeg","photo_file_size":81<ROADMAP_ID>3,"photo_updated_at":"2016-05-22T20:34:26.353-07:00","send_new_message_emails":true,"referred_by_id":null,"slug":"tara-mcparland","os":"Windows","last_seen_at":"2017-01-04T17:27:13.524-08:00","private_profile":false,"google_plus_id":null,"linkedin":null,"quota":0,"old_first_visit_id":null,"selected_enrollment_chain_id":4842,"phone_num":"4072572102","title":null,"quota_limit":0,"dribbble_handle":null,"codecademy_handle":"ardaquendiel","birthdate":"1989-11-03","gender":"Female","first_visit_id":null,"codewars_handle":null}}'
+    http_version: 
+  recorded_at: Thu, 05 Jan 2017 01:27:14 GMT
+- request:
+    method: get
+    uri: https://www.bloc.io/api/v1/message_threads?page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcGlfa2V5IjoiMzg5NWUxNTFjOWE0NGMwNGEyYmQ2NzIyYTE0YThlMjIiLCJ1c2VyX2lkIjoyMzQwMjAzLCJuYW1lIjoiVGFyYSBNY3BhcmxhbmQifQ.rmB4E2j3YwDNLiSxAh7d4-hSiglo7Vl--5VBHMKb2mM
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 05 Jan 2017 01:27:15 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"df5349e52ea70e78a9b0ff329ba2d9e4"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=8YP7b6D3tm3hIJEA5EDI5r%2Bopxs6tbzQoUVAHRnFwBw%3D; path=/; secure
+      - _BlocAlpha_session2=VGY1RWpOVUYxbVhnaUZ2d0NhNDJrUnpkcW54Q0x0Wit1enlYaHZ3bjkrV0NuUjdUV0M2SEtUU1RXWnEwZVd6SWkzZlExUmEvZ29GT1c5akt5ZTdLUzgyNUlPTDg1V1J4VUJOd2Y1bnNFMDA5bXhoRktLc1pqOCtaUWMxQkIybkpXNXp2OTNveGhHTEZ4a1FkWkdyeGxKd3JKQ1VjV2dWNTdZczlWQzZSeWVUVHg2cjFEL2R0QXZXNWtTOTkyQzJKd2pNV1FEZXRIM0E0R0lYSXJFeCt0L0JlYmFqckpGZFdlOUR2dWU5UVk4K05FOFFTaDVDWTJJUXBDcHZqeGRZMXpSVWJ4YzN1NHlTYS93d3QybGVvdU14dmx1SXBUVUZHaFk5SS8vOE05R2FBMUtyeGQrZ01qN2Q0alY2VU42b0otLTJtcTRDTUVRaWhjbWU0UEY1cXJESlE9PQ%3D%3D--2e42e3b65d7073ee1<ROADMAP_ID>f30f0aa71168a7df83ab9;
+        domain=.bloc.io; path=/; secure; HttpOnly
+      - ahoy_track=true; path=/; secure
+      - ahoy_visit=10bd4d2c-ae1c-40b2-ac5a-8453e0d75ff0; path=/; expires=Thu, 05 Jan
+        2017 05:27:14 -0000; secure
+      - ahoy_visitor=d227947e-8dae-4f77-8e8a-29b98a<ROADMAP_ID>6740; path=/; expires=Sat,
+        05 Jan 2019 01:27:14 -0000; secure
+      X-Request-Id:
+      - dca47428-a175-4b01-b550-4650ced196c4
+      X-Runtime:
+      - '0.390396'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"id":253358,"token":"3c570bc6-c638-4ea8-a6f6-6547d354e41a","subject":"You
+        rule!","updated_at":"2016-12-27T14:12:33.187-08:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/<MENTOR_ID>/unnamed.jpg?1422145878","preview":"Congratulations
+        on the excellent assessment (9/...","first_name":"Brittany","last_name":"Martin","page":"1"},{"id":252300,"token":"d22fe3eb-d210-4342-bdc6-3381714e9598","subject":"ssh","updated_at":"2016-12-21T17:52:52.176-08:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/<MENTOR_ID>/unnamed.jpg?1422145878","preview":"Hooray!
+        I''m proud.","first_name":"Brittany","last_name":"Martin","page":"1"},{"id":250737,"token":"50f35210-1f39-406d-8ca1-54786b5b27f6","subject":"Rails
+        Assessment - Schedule Please","updated_at":"2016-12-15T17:36:13.6<ROADMAP_ID>-08:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/<MENTOR_ID>/unnamed.jpg?1422145878","preview":"Hi
+        Tara, \r\n\r\nThanks for agreeing to trial the R...","first_name":"Brittany","last_name":"Martin","page":"1"},{"id":250464,"token":"fbc0ebfe-5622-45fe-8024-8f8f6e6c369a","subject":"My
+        Dog","updated_at":"2016-12-15T15:21:35.364-08:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/<MENTOR_ID>/unnamed.jpg?1422145878","preview":"Yes!","first_name":"Brittany","last_name":"Martin","page":"1"},{"id":245<ROADMAP_ID>5,"token":"0e9c720d-205a-45e1-8d13-a29fbf4ae04e","subject":"Newsletters
+        and Podcasts As Promised ","updated_at":"2016-11-28T17:47:34.048-08:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/<MENTOR_ID>/unnamed.jpg?1422145878","preview":"Hi
+        Tara,\r\n\r\nI really enjoyed talking last night...","first_name":"Brittany","last_name":"Martin","page":"1"},{"id":245372,"token":"d81c9a5b-8d08-4615-be64-ff9c4f203e39","subject":"New
+        Bloc Appointments -- Please Check!","updated_at":"2016-11-27T12:46:46.106-08:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/<MENTOR_ID>/unnamed.jpg?1422145878","preview":"Greetings,
+        Students!\r\n\r\nI''m baaaaaaack and look...","first_name":"Brittany","last_name":"Martin","page":"1"},{"id":244900,"token":"cf2e2b23-8321-4a60-9f78-dbe7dedb800e","subject":"Appointment
+        Change Request Next Week for Tara","updated_at":"2016-11-24T21:23:47.387-08:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/<MENTOR_ID>/unnamed.jpg?1422145878","preview":"Awesome!
+        Thank you so much. I''ll send you a cal...","first_name":"Brittany","last_name":"Martin","page":"1"},{"id":2426<ROADMAP_ID>,"token":"a37208d6-0655-4aea-bdd7-a42582a3ab9d","subject":"Pull
+        Request not there","updated_at":"2016-11-16T17:57:10.428-08:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/<MENTOR_ID>/unnamed.jpg?1422145878","preview":"Nevermind,
+        apparently I wasn''t signed in, ha.","first_name":"Brittany","last_name":"Martin","page":"1"},{"id":238448,"token":"408d1ac5-54ca-4cfa-b28b-d9dd38cb1eb3","subject":"Freeze","updated_at":"2016-11-09T07:44:15.292-08:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/<MENTOR_ID>/unnamed.jpg?1422145878","preview":"Thank
+        you!","first_name":"Brittany","last_name":"Martin","page":"1"},{"id":232582,"token":"38d23e9b-2c34-4d06-a329-97a215a12d40","subject":"Whoops
+        :(","updated_at":"2016-10-12T16:21:08.148-07:00","unread":false,"user_image":"https://cdn-photos.bloc.io/square/<MENTOR_ID>/unnamed.jpg?1422145878","preview":"Actually,
+        you can check out to a new branch new...","first_name":"Brittany","last_name":"Martin","page":"1"}],"count":54}'
+    http_version: 
+  recorded_at: Thu, 05 Jan 2017 01:27:15 GMT
+recorded_with: VCR 3.0.3
