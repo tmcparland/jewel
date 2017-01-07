@@ -41,7 +41,7 @@ class Jewel
   end 
   
   def create_submission (enrollment_id, checkpoint_id, assignment_branch, assignment_commit_link, comment)
-    response = self.class.post(storage("checkpoints_submissions/"), body: {"checkpoint_id": checkpoint_id, "enrollment_id": enrollment_id, "assignment_branch": assignment_branch, "assignment_commit_link": assignment_commit_link, "comment": comment} headers: {"authorization" => @auth_token})
+    response = self.class.post(storage("checkpoints_submissions/"), body: {"checkpoint_id": checkpoint_id, "enrollment_id": enrollment_id, "assignment_branch": assignment_branch, "assignment_commit_link": assignment_commit_link, "comment": comment}, headers: {"authorization" => @auth_token})
     @submission_data = JSON.parse(response.body)
   end
 
