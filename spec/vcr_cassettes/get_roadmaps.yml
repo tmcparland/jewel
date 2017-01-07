@@ -1,0 +1,120 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://www.bloc.io/api/v1/sessions
+    body:
+      encoding: UTF-8
+      string: email=<EMAIL>&password=<PASSWORD>
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 05 Jan 2017 01:27:12 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"d93c43edc3575c7c14ebeb2bebae77cc"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=myejnB3AczZ1rq%2F9oV1p6cRN8At9726BmN0OCrPNAfY%3D; path=/; secure
+      - _BlocAlpha_session2=NkFCdUQ0YlcyMkhYb3hDRTVlQTJndW5LTVNkb0VnT3pSSVJjT2dKSFp2c1h1M1NrY2pxa1g4MGJNQmUwQ1lkZi9uYzRUUEpqZkVRRXl4RFNkRW9KOVExS3h5QjVrZmdpektxNXJVVHp6dmdCZkxpejFWTUtEYi8raTAwaUFtSDBCNWhKL3FCdFpxL01tNnBpU2lWOTl4S25KdXNzUk4wRURBeHlib0JOdkV1bm9GRXNRTGdjNTcvZFJaSlEvSFNaNVhYeGFLYVk0NXFJbzRkQVAzKzV6Zz09LS14QjFvZGJndVRZUEliM0thZG5Sc0xnPT0%3D--5a80193470b2a42abdffd5629bd<ROADMAP_ID>ebb2e181321;
+        domain=.bloc.io; path=/; secure; HttpOnly
+      - ahoy_track=true; path=/; secure
+      - ahoy_visit=1aa2c8d3-8410-4c70-9a79-ecc36b18c7e5; path=/; expires=Thu, 05 Jan
+        2017 05:27:13 -0000; secure
+      - ahoy_visitor=7c7e221d-0b2d-4f82-97b8-84a86004c463; path=/; expires=Sat, 05
+        Jan 2019 01:27:13 -0000; secure
+      X-Request-Id:
+      - ce484c74-3526-4d22-8e7b-921ccd6c44d0
+      X-Runtime:
+      - '0.088391'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"auth_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcGlfa2V5IjoiMzg5NWUxNTFjOWE0NGMwNGEyYmQ2NzIyYTE0YThlMjIiLCJ1c2VyX2lkIjoyMzQwMjAzLCJuYW1lIjoiVGFyYSBNY3BhcmxhbmQifQ.rmB4E2j3YwDNLiSxAh7d4-hSiglo7Vl--5VBHMKb2mM","user":{"id":2340203,"email":"tara.mcparland@gmail.com","created_at":"2016-04-28T17:08:53.528-07:00","updated_at":"2017-01-04T17:27:13.014-08:00","facebook_id":null,"first_name":"Tara","last_name":"Mcparland","role":"user","stripe_customer_id":"cus_8M7SuyUynXqLUU","twitter_handle":null,"skype_handle":"ardaquendiel","github_handle":"tmcparland","time_zone":"Eastern
+        Time (US \u0026 Canada)","bio":"Graduated from the University of Florida in
+        2013 with a BS in Animal Science. Since then have worked at an animal rescue,
+        dog park, and two veterinary offices. I am currently working full time as
+        a veterinary technician. I also own and manage the farm that I live on raising
+        mainly goats. Looking to change to a career that will allow me to grow and
+        learn more about programming.","photo_file_name":"11889535_10207236095205667_533847030719098742_n.jpg","photo_content_type":"image/jpeg","photo_file_size":81<ROADMAP_ID>3,"photo_updated_at":"2016-05-22T20:34:26.353-07:00","send_new_message_emails":true,"referred_by_id":null,"slug":"tara-mcparland","os":"Windows","last_seen_at":"2017-01-04T17:27:12.947-08:00","private_profile":false,"google_plus_id":null,"linkedin":null,"quota":0,"old_first_visit_id":null,"selected_enrollment_chain_id":4842,"phone_num":"4072572102","title":null,"quota_limit":0,"dribbble_handle":null,"codecademy_handle":"ardaquendiel","birthdate":"1989-11-03","gender":"Female","first_visit_id":null,"codewars_handle":null}}'
+    http_version: 
+  recorded_at: Thu, 05 Jan 2017 01:27:13 GMT
+- request:
+    method: get
+    uri: https://www.bloc.io/api/v1/roadmaps/<ROADMAP_ID>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcGlfa2V5IjoiMzg5NWUxNTFjOWE0NGMwNGEyYmQ2NzIyYTE0YThlMjIiLCJ1c2VyX2lkIjoyMzQwMjAzLCJuYW1lIjoiVGFyYSBNY3BhcmxhbmQifQ.rmB4E2j3YwDNLiSxAh7d4-hSiglo7Vl--5VBHMKb2mM
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 05 Jan 2017 01:27:12 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - _BlocAlpha_session2=YTErSlFpTXVzV1ViMEhncWZpY0M5N255MEJ1cHpObDFPYVd0YUFkeFNKbHo4VlRMOTk5eGxOeG1TYWV5YWthNTlMWnZHWGs5YmY1N0d4Mk85dUZNZjZ4RnVpeVN3YjVNb0NKMVFjTkhIbFMrVTB2cXgzWjFnUWNBcnVQUi9QQlFhMFlaYmZ5TlFZWmRuTmRMY1lxcEIwUzAwK1Y4cHVtdHNGcSt6Y2lkcklKVjZnbTRGUjRnOGRDbzhxeEF4TDFMdG5OQUl2SGxwS1BuL0lCNDVtR2tIcDlNNDVxNFVrTi9MYTJkeTF6WG9DUT0tLSsyNDJUZUF5dmdOWHVLcTJZQ1Fha1E9PQ%3D%3D--56fd7d702fa4c2a58139704cbf117aa79cc1cd72;
+        domain=.bloc.io; path=/; secure; HttpOnly
+      - ahoy_track=true; path=/; secure
+      - ahoy_visit=c1488a8e-936b-49ba-a47f-e7ee0ae06fd3; path=/; expires=Thu, 05 Jan
+        2017 05:27:13 -0000; secure
+      - ahoy_visitor=33c175bf-80fd-419e-9246-da757a4a2142; path=/; expires=Sat, 05
+        Jan 2019 01:27:13 -0000; secure
+      X-Request-Id:
+      - 8a091693-8874-4363-bcbd-0a28c9adaf48
+      X-Runtime:
+      - 0.0<ROADMAP_ID>887
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"message":"Resource not found"}'
+    http_version: 
+  recorded_at: Thu, 05 Jan 2017 01:27:13 GMT
+recorded_with: VCR 3.0.3

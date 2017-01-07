@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://www.bloc.io/api/v1/sessions
+    body:
+      encoding: UTF-8
+      string: email=<EMAIL>&password=<PASSWORD>
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 05 Jan 2017 01:27:13 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"21a43a63530e2f2df608e7668fab4071"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=IPcihmxioSJtmHgeycSCSb9vKFfvOM5TziCOA8FGORo%3D; path=/; secure
+      - _BlocAlpha_session2=b2lNR1M1OEVWaThYVzBOeFVzWmdMUkszR0ZZOGd6R21LMWhMeitmN05tTDBiaXM5ZlFRWHk5S2hwdXp4OW9yaXlLaFJ5UUZpaVJwY0YwRGd1V1B0V0NvMVNxcWM5TXZGeEdvOE1EV0EzQkYwNUR5L2hOcXFxeGxsV01XSTFid2ptZGF6bVBndnpaRkh2QlRMU0M2UDY3Vk53aEo2eTM2TG1qcXB5Ulh6UFl2MjFUV2E5TnFqODlidEF6T3dvYUR6YlR1NFBGUTVKTEloVEdkRlBtNi92Zz09LS1XLzdFWjltOU53VDBTQVR1VUFwd093PT0%3D--a1bc2e4de5643352ed04ba0a5139a0c410e1aa31;
+        domain=.bloc.io; path=/; secure; HttpOnly
+      - ahoy_track=true; path=/; secure
+      - ahoy_visit=4954b45c-6257-4c2a-a919-1ab188210bd9; path=/; expires=Thu, 05 Jan
+        2017 05:27:13 -0000; secure
+      - ahoy_visitor=<ROADMAP_ID>db5cd9-786a-40d3-9b12-cbfcfb232863; path=/; expires=Sat,
+        05 Jan 2019 01:27:13 -0000; secure
+      X-Request-Id:
+      - 5df3a4f7-520d-4ec1-8eba-da4ee8dc6baa
+      X-Runtime:
+      - '0.141432'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"auth_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcGlfa2V5IjoiMzg5NWUxNTFjOWE0NGMwNGEyYmQ2NzIyYTE0YThlMjIiLCJ1c2VyX2lkIjoyMzQwMjAzLCJuYW1lIjoiVGFyYSBNY3BhcmxhbmQifQ.rmB4E2j3YwDNLiSxAh7d4-hSiglo7Vl--5VBHMKb2mM","user":{"id":2340203,"email":"tara.mcparland@gmail.com","created_at":"2016-04-28T17:08:53.528-07:00","updated_at":"2017-01-04T17:27:13.590-08:00","facebook_id":null,"first_name":"Tara","last_name":"Mcparland","role":"user","stripe_customer_id":"cus_8M7SuyUynXqLUU","twitter_handle":null,"skype_handle":"ardaquendiel","github_handle":"tmcparland","time_zone":"Eastern
+        Time (US \u0026 Canada)","bio":"Graduated from the University of Florida in
+        2013 with a BS in Animal Science. Since then have worked at an animal rescue,
+        dog park, and two veterinary offices. I am currently working full time as
+        a veterinary technician. I also own and manage the farm that I live on raising
+        mainly goats. Looking to change to a career that will allow me to grow and
+        learn more about programming.","photo_file_name":"11889535_10207236095205667_533847030719098742_n.jpg","photo_content_type":"image/jpeg","photo_file_size":81<ROADMAP_ID>3,"photo_updated_at":"2016-05-22T20:34:26.353-07:00","send_new_message_emails":true,"referred_by_id":null,"slug":"tara-mcparland","os":"Windows","last_seen_at":"2017-01-04T17:27:13.524-08:00","private_profile":false,"google_plus_id":null,"linkedin":null,"quota":0,"old_first_visit_id":null,"selected_enrollment_chain_id":4842,"phone_num":"4072572102","title":null,"quota_limit":0,"dribbble_handle":null,"codecademy_handle":"ardaquendiel","birthdate":"1989-11-03","gender":"Female","first_visit_id":null,"codewars_handle":null}}'
+    http_version: 
+  recorded_at: Thu, 05 Jan 2017 01:27:13 GMT
+- request:
+    method: get
+    uri: https://www.bloc.io/api/v1/checkpoints/<CHECKPOINT_ID>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcGlfa2V5IjoiMzg5NWUxNTFjOWE0NGMwNGEyYmQ2NzIyYTE0YThlMjIiLCJ1c2VyX2lkIjoyMzQwMjAzLCJuYW1lIjoiVGFyYSBNY3BhcmxhbmQifQ.rmB4E2j3YwDNLiSxAh7d4-hSiglo7Vl--5VBHMKb2mM
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 05 Jan 2017 01:27:14 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"641c97d2bac71fa6e00f39089ab01591"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=nBJq5wKrVO2c%2BM4uWUi9ajFlwVR5i5pBdF6wBaTkDl4%3D; path=/; secure
+      - _BlocAlpha_session2=Uldwck9mbEJuT2ZZS2tjb3lwM2hkbjFhemVJZEVtRkRKOTBINTgzNUx0V0pZVklyRmk4Mk5ET2tScFk0T3VSeEk4R2NTVytHZGVRM3oxOUt1dUl0VTNpdUdCc0NtL3p5cUNsV0dZQU0yN2ExSzFjWWhxNnhCOFZnK21naE4ybGloa1lEZGxUNUJOVU1SQ1BMYTdTQjJPZ2lyMjJNcGRydTQzRGR3aENaTHMxc0NXVmhjOGVneGJUUkRCeUdHK1NaRURuTTNDVUxNUFVjMjk4Ui9JRytJYmxZbTVld2JYSGJFZ0h5Si9KMkY3N0M3R2dhM080UWREMlk1ck9mU0NTZ2hnWFlvc0xYVzRmRk8yZEdNVE5QMUU2QTlkT1diaEVZYVBSb0xQZGlMZ29PYUQycU9Oc255RnVBbGxlYzg3QWgtLXI3SytYaGtoa2JaNEdYK2YrK25jUXc9PQ%3D%3D--3b111c602f4b6e041f745ea2f867f2d35e41d552;
+        domain=.bloc.io; path=/; secure; HttpOnly
+      - ahoy_track=true; path=/; secure
+      - ahoy_visit=a88edbf3-a9ec-4d93-8c30-8b9d0236d322; path=/; expires=Thu, 05 Jan
+        2017 05:27:14 -0000; secure
+      - ahoy_visitor=0bfc50f2-db76-4be0-b178-e5459df0fa30; path=/; expires=Sat, 05
+        Jan 2019 01:27:14 -0000; secure
+      X-Request-Id:
+      - b01543b1-107a-487a-b45d-40a8cfcb14fe
+      X-Runtime:
+      - '0.378958'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"id":<CHECKPOINT_ID>,"name":"Checkpoint Submission","body":"\u003eAs
+        a user, I want to submit checkpoint assignments\n\u003e[Difficulty Rating](https://www.bloc.io/resources/projects-difficulty-ratings):
+        3\n\n## Checkpoint Submissions\n\nAdd a `create_submission` method that creates
+        a new Bloc checkpoint submission on the Bloc platform. Use the [create checkpoint
+        submission endpoint](http://docs.blocapi.apiary.io/#reference/0/checkpoint-submissions/create)
+        to create a new submission. Checkpoint submissions are tied to your account
+        via an `enrollment_id`, which is included in your user information. Implement
+        `create_submission` so that it can be used as follows:\n\n```bash\n$ irb\n\u003e\u003e
+        require ''kele''\n=\u003e true\n\u003e\u003e kele_client = Kele.new(\"Hannah.McExample@gmail.com\",
+        \"abc123\")\n\u003e\u003e kele_client.create_submission(checkpoint_id, assignment_branch,
+        assignment_commit_link, comment)\n```\n\n### Test Your Code\nTest `Kele` in
+        IRB to ensure that you can:\n\n- Create a new checkpoint submission","parent_id":null,"created_at":"2016-03-03T08:41:59.829-05:00","updated_at":"2016-03-03T09:08:12.843-05:00","assignment":"Complete
+        the user story.","summary":"Submit Checkpoint Assignments","points":1,"project_name":"","roadmap_id":null,"active":true,"job_prep":false,"version":[0,0],"body_file_path":"","uuid":"0ee5b6ce-88bd-4704-92df-39779e31c5dc","ref":"0ee5b6ce-88bd-4704-92df-39779e31c5dc|0","retroactive_optional_date":null,"checkpoint_type":"normal","quiz_id":null,"viewable_to_demo_user":false}'
+    http_version: 
+  recorded_at: Thu, 05 Jan 2017 01:27:14 GMT
+recorded_with: VCR 3.0.3

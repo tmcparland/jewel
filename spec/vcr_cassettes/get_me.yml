@@ -1,0 +1,136 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://www.bloc.io/api/v1/sessions
+    body:
+      encoding: UTF-8
+      string: email=<EMAIL>&password=<PASSWORD>
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 05 Jan 2017 01:27:11 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"c0775ffd38e396ce72e69aae58bed3c9"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=B8FbtYxSYV3TTdCvS5sMhTl1UQMFLWrsdb4BZUtPSvU%3D; path=/; secure
+      - _BlocAlpha_session2=KzBOZjNtR29CWmpnVXRlOE9LSFhyZ0t0U2FqNDVNSEdyY0VaRkVkVlY0Yy9MQ1RVTDQrVWxncXZpNUJyclhXVHVvOE4zRkIrcWhKSXVKbGV4VnRpbW9LVzVXZGVPUU9WbHhIWmMyajI5c0o5UjU0RzJnbGZSdmo4TE03UGlHbllSZm1HblB1MXZ4aUFYTHF2a1oybEsrZ0ZJSWRLY1A0RzFmMndaeFd4bk9aNGMrM3pIUVBudXhCNG5TaGVsZHRiMzFPSWpVc0lhNXRIK0xHaGN1WFFMQT09LS1waTZVODNvVGJJRGhMckNMMFBXZytnPT0%3D--26f0c0f68ecaaacddf19d382e0277ca62424747b;
+        domain=.bloc.io; path=/; secure; HttpOnly
+      - ahoy_visit=3cdc4b07-8e6f-4490-96b2-e65c3863b5b1; path=/; expires=Thu, 05 Jan
+        2017 05:27:12 -0000; secure
+      - ahoy_visitor=68f72f0b-4cff-4414-be5b-1c8fd394febf; path=/; expires=Sat, 05
+        Jan 2019 01:27:12 -0000; secure
+      X-Request-Id:
+      - c25fa00d-e2d0-41ca-bfa8-96a2beadb9ae
+      X-Runtime:
+      - '0.086860'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: ASCII-8BIT
+      string: '{"auth_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcGlfa2V5IjoiMzg5NWUxNTFjOWE0NGMwNGEyYmQ2NzIyYTE0YThlMjIiLCJ1c2VyX2lkIjoyMzQwMjAzLCJuYW1lIjoiVGFyYSBNY3BhcmxhbmQifQ.rmB4E2j3YwDNLiSxAh7d4-hSiglo7Vl--5VBHMKb2mM","user":{"id":2340203,"email":"tara.mcparland@gmail.com","created_at":"2016-04-28T14:08:53.528-10:00","updated_at":"2017-01-04T15:24:09.196-10:00","facebook_id":null,"first_name":"Tara","last_name":"Mcparland","role":"user","stripe_customer_id":"cus_8M7SuyUynXqLUU","twitter_handle":null,"skype_handle":"ardaquendiel","github_handle":"tmcparland","time_zone":"Eastern
+        Time (US \u0026 Canada)","bio":"Graduated from the University of Florida in
+        2013 with a BS in Animal Science. Since then have worked at an animal rescue,
+        dog park, and two veterinary offices. I am currently working full time as
+        a veterinary technician. I also own and manage the farm that I live on raising
+        mainly goats. Looking to change to a career that will allow me to grow and
+        learn more about programming.","photo_file_name":"11889535_10207236095205667_533847030719098742_n.jpg","photo_content_type":"image/jpeg","photo_file_size":81<ROADMAP_ID>3,"photo_updated_at":"2016-05-22T17:34:26.353-10:00","send_new_message_emails":true,"referred_by_id":null,"slug":"tara-mcparland","os":"Windows","last_seen_at":"2017-01-04T15:24:09.131-10:00","private_profile":false,"google_plus_id":null,"linkedin":null,"quota":0,"old_first_visit_id":null,"selected_enrollment_chain_id":4842,"phone_num":"4072572102","title":null,"quota_limit":0,"dribbble_handle":null,"codecademy_handle":"ardaquendiel","birthdate":"1989-11-03","gender":"Female","first_visit_id":null,"codewars_handle":null}}'
+    http_version: 
+  recorded_at: Thu, 05 Jan 2017 01:27:12 GMT
+- request:
+    method: get
+    uri: https://www.bloc.io/api/v1/users/me
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcGlfa2V5IjoiMzg5NWUxNTFjOWE0NGMwNGEyYmQ2NzIyYTE0YThlMjIiLCJ1c2VyX2lkIjoyMzQwMjAzLCJuYW1lIjoiVGFyYSBNY3BhcmxhbmQifQ.rmB4E2j3YwDNLiSxAh7d4-hSiglo7Vl--5VBHMKb2mM
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 05 Jan 2017 01:27:12 GMT
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - '"fd36c97e83e57bb24f2d53a9c1248c1e"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Set-Cookie:
+      - XSRF-TOKEN=PzQAYzlfcYV5WHXt%2FTAOxQs%2BbCicnWOj7i4Gzc8eVGM%3D; path=/; secure
+      - _BlocAlpha_session2=b3lXeFZJRnhzWjdlaTZRQ2pBRGQycENNeVQ1aUk1Y1NBOXdxNWpVdnU5ejkyV1ZKR2xwZUVWSFd3R0Q2QmRnbGxpVzE4N0dkOXYrUHY5NElVU2ZzQkRXWk5QakNJNzNWQnMrZlVQYldJYjdGR1RDaEQ0U0szTWc1Y0RDUTlka00vQ2JzcWNoanpmRDlIK0U0dC9kaEhzczB0V0dKMWN3VnE3aXh6Nk03NXN4aGJONFA0RkNmZjZlS0c1V21lQzN6TTk0K3ArZVdSeWc2Nzd6Z2tkNGlVaG85WERrWk5qOWN6SDRWajBDQm5aRjNoUHQ4TGFkM2N1Z3Z1bUM2d205OG5tNVhJSUtwSUFROGc1MzllQ0xPdnYzTmdEcG40RmdURjY0T1dXTytXd3FTMHlkVnVwNzRtT3dYQkFMcGZDS0QtLWUzVEd0V3JqcC9uOWdTY0E2bStRWXc9PQ%3D%3D--9c0a2d5a5082c0b4a6fe41954b9f68f90bd1eb51;
+        domain=.bloc.io; path=/; secure; HttpOnly
+      - ahoy_track=true; path=/; secure
+      - ahoy_visit=60b36161-e733-42be-8b16-5e419c2f6f21; path=/; expires=Thu, 05 Jan
+        2017 05:27:12 -0000; secure
+      - ahoy_visitor=3096f198-13ea-40af-b5d1-407655c8a6c1; path=/; expires=Sat, 05
+        Jan 2019 01:27:12 -0000; secure
+      X-Request-Id:
+      - 6455df5f-9d63-4f0d-bf3f-5f7797cd6ee1
+      X-Runtime:
+      - '0.121558'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"id":2340203,"slug":"tara-mcparland","name":"Tara Mcparland","email":"tara.mcparland@gmail.com","title":null,"first_name":"Tara","last_name":"Mcparland","facebook_id":null,"url":"/users/tara-mcparland","bio":"Graduated
+        from the University of Florida in 2013 with a BS in Animal Science. Since
+        then have worked at an animal rescue, dog park, and two veterinary offices.
+        I am currently working full time as a veterinary technician. I also own and
+        manage the farm that I live on raising mainly goats. Looking to change to
+        a career that will allow me to grow and learn more about programming.","course":{"id":35,"name":"Full
+        Stack Web Developer Track","length":72,"kind":"web_dev_track","appointments_per_week":1},"current_enrollment":{"id":19595,"created_at":"2016-11-26T00:41:42.604-08:00","updated_at":"2016-12-21T17:36:15.882-08:00","cohort_id":null,"status":"active","mentor_id":<MENTOR_ID>,"deleted":false,"onboarded":true,"dropped_out_at":null,"birth_date":"2016-11-26T00:41:42.593-08:00","roadmap_id":31,"course_end_date":"2017-02-20T23:00:00.000-08:00","course_start_date":"2016-05-22T17:00:00.000-07:00","death_date":null,"sent_get_started_email":false,"course_id":35,"old_visit_id":null,"certified":false,"locked_message":"","latest":true,"chain_id":4842,"roadmap_ref":"af25ff7b-d789-4926-b4d7-4708a45a10b5|1","visit_id":"df8f1215-8370-49a7-ad07-9c5403c865be"},"quota":0,"quota_limit":0,"type":"Student","status":"active","image_src":"https://cdn-photos.bloc.io/original/2340203/11889535_10207236095205667_533847030719098742_n.jpg?1463974466","large_image_src":"https://cdn-photos.bloc.io/large/2340203/11889535_10207236095205667_533847030719098742_n.jpg?1463974466","created_at":"2016-04-28
+        17:08:53 -0700","facebook_profile_picture_url":"http://graph.facebook.com//picture?width=110\u0026height=110","github_handle":"tmcparland","codecademy_handle":"ardaquendiel","student":true,"time_zone":{"name":"Eastern
+        Time (US \u0026 Canada)","string":"(GMT-05:00) Eastern Time (US \u0026 Canada)","identifier":"America/New_York"}}'
+    http_version: 
+  recorded_at: Thu, 05 Jan 2017 01:27:12 GMT
+recorded_with: VCR 3.0.3

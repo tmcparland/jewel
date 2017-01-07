@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Thu, 22 Dec 2016 01:32:11 GMT
+      - Thu, 05 Jan 2017 01:27:11 GMT
       Connection:
       - keep-alive
       Strict-Transport-Security:
@@ -35,21 +35,21 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - '"9f9d2b8d2a390342f6572a6340fdec93"'
+      - '"0647eaebaa6065d1c11f8ccc5d8f4ce1"'
       Cache-Control:
       - max-age=0, private, must-revalidate
       Set-Cookie:
-      - XSRF-TOKEN=qhF2X9EYh4KZabtZTQ2P0m4UTHZrJIM2ujHtGmtdou8%3D; path=/; secure
-      - _BlocAlpha_session2=RFBoZnQzN3BhL0t6UTRmZnJtWVNEc0ZSTGpyMFRLSUxLNnBNUXdZTjlNaWdFTi9tRk9HRVFMWTl6c1RZQ1dFcXpQbEVKWGd0OTF0MW1pejV6alROVDlncDFra2xzbEwvWndPaHIrc25OR0JZdHlwd2pqQjdXUzdLRzBmRGdRano4UWhTdU1VNmZBZ01tUTByUC9URnJaSldHZ08xN2NobFN5MmcrZmN3aUgrYk1Bb1k3T1VDZVkxU0hucUR5alVNUUtDQU1xOS9BWG5SMm5mejlTNmMrZz09LS1sQzQ0L0pCL2lCcGIyUmgvYXBxbG53PT0%3D--921c072c202bccc0c923af33f4f9bd7c6c1ee343;
+      - XSRF-TOKEN=NnV83m6w4KfrFWqY8RBJ5GwMi3BS%2BijdBhVITo%2BJoL0%3D; path=/; secure
+      - _BlocAlpha_session2=NGQ5T0pkREl2OERRaktvOTRtSWVrRHR2Zkl5bVFCMENHbWlwbzRPN0YvY2MwMEFua1A4MzZ2U1g1N205eldEanVTdDRERGhkM2I2OEZkMWZTT29tQzlPbXZxakdRUFgzWGQ1RFdvTEV1eUJ4UWQ2QzdrZkI1WCtIWFowZzNhWWtZOExodDE3bW5XZXlaMHcyS3lvSmhHTEFPTjZBRFhHM1JjMWFQS1U2cnR1WUhVZzcySllrMEpzT0NUbFV3YWhqamJlRTNLNCs0NTlQU0plRzcwQi9Udz09LS04Zi9oemZoRUFrSy9CMXlSV0FqZ3lBPT0%3D--32155da<ROADMAP_ID>881f92411ffe45edea49091dd076ca8;
         domain=.bloc.io; path=/; secure; HttpOnly
-      - ahoy_visit=71689d8a-4154-4a0a-9ebc-203e1d3f016b; path=/; expires=Thu, 22 Dec
-        2016 05:32:12 -0000; secure
-      - ahoy_visitor=19cf1b01-1910-4c8c-820b-1dfbeb6bf938; path=/; expires=Sat, 22
-        Dec 2018 01:32:12 -0000; secure
+      - ahoy_visit=673373bf-c484-4d5f-8b89-a<ROADMAP_ID>327a37705; path=/; expires=Thu,
+        05 Jan 2017 05:27:11 -0000; secure
+      - ahoy_visitor=3cadfc5a-4622-49b7-82ac-61e6dc17a8af; path=/; expires=Sat, 05
+        Jan 2019 01:27:11 -0000; secure
       X-Request-Id:
-      - b0f57e79-dd40-4d55-8f69-76ccece5ee83
+      - 76943cf6-e31e-4a29-b25a-9362f04a6c3b
       X-Runtime:
-      - '0.114831'
+      - '0.090494'
       Vary:
       - Accept-Encoding
       Transfer-Encoding:
@@ -58,13 +58,13 @@ http_interactions:
       - 1.1 vegur
     body:
       encoding: ASCII-8BIT
-      string: '{"auth_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcGlfa2V5IjoiMzg5NWUxNTFjOWE0NGMwNGEyYmQ2NzIyYTE0YThlMjIiLCJ1c2VyX2lkIjoyMzQwMjAzLCJuYW1lIjoiVGFyYSBNY3BhcmxhbmQifQ.rmB4E2j3YwDNLiSxAh7d4-hSiglo7Vl--5VBHMKb2mM","user":{"id":2340203,"email":"tara.mcparland@gmail.com","created_at":"2016-04-28T20:08:53.528-04:00","updated_at":"2016-12-21T20:10:41.020-05:00","facebook_id":null,"first_name":"Tara","last_name":"Mcparland","role":"user","stripe_customer_id":"cus_8M7SuyUynXqLUU","twitter_handle":null,"skype_handle":"ardaquendiel","github_handle":"tmcparland","time_zone":"Eastern
+      string: '{"auth_token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcGlfa2V5IjoiMzg5NWUxNTFjOWE0NGMwNGEyYmQ2NzIyYTE0YThlMjIiLCJ1c2VyX2lkIjoyMzQwMjAzLCJuYW1lIjoiVGFyYSBNY3BhcmxhbmQifQ.rmB4E2j3YwDNLiSxAh7d4-hSiglo7Vl--5VBHMKb2mM","user":{"id":2340203,"email":"tara.mcparland@gmail.com","created_at":"2016-04-29T00:08:53.528Z","updated_at":"2017-01-05T01:24:09.196Z","facebook_id":null,"first_name":"Tara","last_name":"Mcparland","role":"user","stripe_customer_id":"cus_8M7SuyUynXqLUU","twitter_handle":null,"skype_handle":"ardaquendiel","github_handle":"tmcparland","time_zone":"Eastern
         Time (US \u0026 Canada)","bio":"Graduated from the University of Florida in
         2013 with a BS in Animal Science. Since then have worked at an animal rescue,
         dog park, and two veterinary offices. I am currently working full time as
         a veterinary technician. I also own and manage the farm that I live on raising
         mainly goats. Looking to change to a career that will allow me to grow and
-        learn more about programming.","photo_file_name":"11889535_10207236095205667_533847030719098742_n.jpg","photo_content_type":"image/jpeg","photo_file_size":81993,"photo_updated_at":"2016-05-22T23:34:26.353-04:00","send_new_message_emails":true,"referred_by_id":null,"slug":"tara-mcparland","os":"Windows","last_seen_at":"2016-12-21T20:03:42.665-05:00","private_profile":false,"google_plus_id":null,"linkedin":null,"quota":0,"old_first_visit_id":null,"selected_enrollment_chain_id":4842,"phone_num":"4072572102","title":null,"quota_limit":0,"dribbble_handle":null,"codecademy_handle":"ardaquendiel","student_profile_id":null,"birthdate":"1989-11-03","gender":"Female","first_visit_id":null,"codewars_handle":null}}'
+        learn more about programming.","photo_file_name":"11889535_10207236095205667_533847030719098742_n.jpg","photo_content_type":"image/jpeg","photo_file_size":81<ROADMAP_ID>3,"photo_updated_at":"2016-05-23T03:34:26.353Z","send_new_message_emails":true,"referred_by_id":null,"slug":"tara-mcparland","os":"Windows","last_seen_at":"2017-01-05T01:24:09.131Z","private_profile":false,"google_plus_id":null,"linkedin":null,"quota":0,"old_first_visit_id":null,"selected_enrollment_chain_id":4842,"phone_num":"4072572102","title":null,"quota_limit":0,"dribbble_handle":null,"codecademy_handle":"ardaquendiel","birthdate":"1989-11-03","gender":"Female","first_visit_id":null,"codewars_handle":null}}'
     http_version: 
-  recorded_at: Thu, 22 Dec 2016 01:32:12 GMT
+  recorded_at: Thu, 05 Jan 2017 01:27:12 GMT
 recorded_with: VCR 3.0.3
